@@ -29,7 +29,7 @@ Display the greater number using DBMS_OUTPUT.PUT_LINE.
 Expected Output:
 Greater number is: 80
 
-##Program:
+## Program:
 ```
 
 DECLARE
@@ -56,7 +56,7 @@ Display the result using DBMS_OUTPUT.PUT_LINE.
 Expected Output:
 Sum of first 10 natural numbers is: 55
 
-Program:
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -87,7 +87,7 @@ Expected Output:
 n = 7
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
-Program:
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -124,7 +124,7 @@ Expected Output:
 n = 1535
 Reversed number is 5351
 
-Program:
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
@@ -157,7 +157,7 @@ Expected Output:
 a = 10, b = 9, c = 15
 Largest of three number is 15
 
-Program:
+## Program:
 ```
 SET SERVEROUTPUT ON;
 
