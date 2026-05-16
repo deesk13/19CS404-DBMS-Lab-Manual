@@ -1,5 +1,5 @@
-"Experiment 7: PL/SQL – Variables, Control Structures and Loops"
-AIM
+**Experiment 7: PL/SQL – Variables, Control Structures and Loops**
+**AIM**
 To write and execute simple PL/SQL programs using variables, loops, and conditional statements.
 
 THEORY
@@ -29,6 +29,7 @@ Expected Output:
 Greater number is: 80
 
 ##Program:
+```
 
 DECLARE
     num1 NUMBER := 80;  -- First number
@@ -40,8 +41,10 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Greater number is: ' || num2);
     END IF;
 END;
+```
 Output:
-image
+<img width="1162" height="343" alt="image" src="https://github.com/user-attachments/assets/0e513525-20bc-421f-80b2-d40ea5ef6f58" />
+
 
 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
 Steps:
@@ -53,6 +56,7 @@ Expected Output:
 Sum of first 10 natural numbers is: 55
 
 Program:
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -67,8 +71,10 @@ BEGIN
 
     DBMS_OUTPUT.PUT_LINE('Sum of first ' || n || ' natural numbers is: ' || total_sum);
 END;
+```
 Output:
-image
+<img width="920" height="357" alt="image" src="https://github.com/user-attachments/assets/fd44af75-ffd9-470b-ac15-92ee506efd08" />
+
 
 3. Write a PL/SQL program to generate Fibonacci series
 Steps:
@@ -81,6 +87,7 @@ n = 7
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
 Program:
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -102,8 +109,10 @@ BEGIN
         i := i + 1;
     END LOOP;
 END;
+```
 Output:
-image
+<img width="1167" height="657" alt="image" src="https://github.com/user-attachments/assets/ceb2263a-04e9-4aa3-a8fc-8d1e4a180b57" />
+
 
 4. Write a PL/SQL Program to display the number in Reverse Order
 Steps:
@@ -115,6 +124,7 @@ n = 1535
 Reversed number is 5351
 
 Program:
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -132,8 +142,10 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('n = ' || original);
     DBMS_OUTPUT.PUT_LINE('Reversed number is ' || reversed);
 END;
+```
 Output:
-image
+<img width="1131" height="582" alt="image" src="https://github.com/user-attachments/assets/f2785dfc-17d6-41e3-8391-a78265fa6807" />
+
 
 5. Write a PL/SQL program to find the largest of three numbers
 Steps:
@@ -145,6 +157,7 @@ a = 10, b = 9, c = 15
 Largest of three number is 15
 
 Program:
+```
 SET SERVEROUTPUT ON;
 
 DECLARE
@@ -164,7 +177,11 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('a = ' || a || ', b = ' || b || ', c = ' || c);
     DBMS_OUTPUT.PUT_LINE('Largest of three number is ' || largest);
 END;
+```
 Output:
+<img width="1080" height="521" alt="image" src="https://github.com/user-attachments/assets/a2fd018d-1ad7-448c-b480-c58da2215089" />
+**RESULT:**
+
 image
 
 RESULT
